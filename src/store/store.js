@@ -266,7 +266,7 @@ export default createStore({
       {
         id: 25,
         name: "중국 산동성 관광국 공식 한국어 사이트, 산동패스, 피코패스",
-        projectType: "리뉴얼",
+        projectType: "신규 구축",
         type: "반응형",
         accessibilityMark: false,
         duration: "2013.04 - 2013.12",
