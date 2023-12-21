@@ -5,8 +5,8 @@ export default createStore({
     projects: [
       {
         id: 1,
-        name: "SK오픈골프 리뉴얼 및 운영",
-        projectType: "리뉴얼",
+        name: "SK오픈골프",
+        projectType: "리뉴얼 및 운영",
         type: "반응형",
         accessibilityMark: false,
         duration: "2021.04.15 - 2021.05.06",
