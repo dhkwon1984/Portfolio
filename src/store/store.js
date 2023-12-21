@@ -216,7 +216,7 @@ export default createStore({
       {
         id: 20,
         name: "범죄예방정책국",
-        projectType: "신규 구축",
+        projectType: "리뉴얼",
         type: "반응형",
         accessibilityMark: true,
         duration: "2013.10 - 2013.12",
