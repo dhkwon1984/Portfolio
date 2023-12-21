@@ -8,7 +8,25 @@
     >
       <h1>{{ skills.title }}</h1>
       <ul>
-        <li v-for="(skill, idx) in skills.list" :key="idx">{{ skill }}</li>
+        <li v-for="(skill, idx) in skills.list" :key="idx">
+          <span v-if="skill === 'Voice Modulation'">
+            <a
+              href="https://www.youtube.com/channel/UC-jOvtcZBLWWJFVLA6WRhGw"
+              target="_blank"
+              >{{ skill }}</a
+            >
+          </span>
+          <span v-else-if="skill === 'Image Generation with Generative AI'">
+            <a
+              href="https://www.youtube.com/channel/UCyRrpd5Hvu8hDN6EyDWuNUw"
+              target="_blank"
+              >{{ skill }}</a
+            >
+          </span>
+          <span v-else>
+            {{ skill }}
+          </span>
+        </li>
       </ul>
     </section>
   </main>
